@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Interactive Resume</title>
+    <title>Interactive Resume - Anik Shaikh</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3.0.3/dist/email.min.js"></script>
     <script>
         (function(){
-            emailjs.init("IZdCAOvAePZYh6wTk"); // Replace with your EmailJS user ID
+            emailjs.init("UMB6X5QtDbAumwd1Vw3KQ"); // Replace with your EmailJS user ID
         })();
     </script>
 </head>
@@ -25,45 +26,47 @@
             <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Hello! I'm Anik Shaikh, a passionate web developer with experience in building dynamic and responsive websites. I love coding and solving complex problems.</p>
-    </section>
-    <section id="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>React</li>
-            <li>Node.js</li>
-        </ul>
-    </section>
-    <section id="experience">
-        <h2>Experience</h2>
-        <div class="job">
-            <h3>Web Developer at XYZ Company</h3>
-            <p>January 2020 - Present</p>
-            <p>Developed and maintained various web applications using modern technologies.</p>
-        </div>
-        <div class="job">
-            <h3>Front-End Developer at ABC Corp</h3>
-            <p>June 2018 - December 2019</p>
-            <p>Worked on enhancing the user experience of several client projects.</p>
-        </div>
-    </section>
-    <section id="contact">
-        <h2>Contact</h2>
-        <form id="contact-form">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" required></textarea>
-            <button type="submit">Send</button>
-        </form>
-    </section>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello! I'm Anik Shaikh, a passionate web developer with experience in building dynamic and responsive websites. I love coding and solving complex problems.</p>
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Node.js</li>
+            </ul>
+        </section>
+        <section id="experience">
+            <h2>Experience</h2>
+            <div class="job">
+                <h3>Web Developer at XYZ Company</h3>
+                <p>January 2020 - Present</p>
+                <p>Developed and maintained various web applications using modern technologies.</p>
+            </div>
+            <div class="job">
+                <h3>Front-End Developer at ABC Corp</h3>
+                <p>June 2018 - December 2019</p>
+                <p>Worked on enhancing the user experience of several client projects.</p>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
     <script src="script.js"></script>
 </body>
 </html>
